@@ -16,7 +16,7 @@ public class FirstController {
     }
 
     @GetMapping("/country")
-    public String country() {
+    public  country() {
         return "Welcome to Indiagi Mapping";
     }
 }
