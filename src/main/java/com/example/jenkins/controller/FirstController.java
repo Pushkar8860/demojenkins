@@ -14,4 +14,9 @@ public class FirstController {
     public String world() {
         return "Welcome to world Mapping";
     }
+
+    @GetMapping("/country")
+    public String country() {
+        return "Welcome to Indiagi Mapping";
+    }
 }
