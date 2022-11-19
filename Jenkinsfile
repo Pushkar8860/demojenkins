@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Unit Testing') {
             steps {
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
     }
